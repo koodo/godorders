@@ -1,0 +1,144 @@
+@import url("reset.css");
+
+body
+{
+	background: #FFF;
+	color: #555;
+	font-family: "Istok Web", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding: 30px 0;
+}
+
+/** Misc Styles **/
+
+a { color: #7495A9; text-decoration: none; }
+a:hover { color: #333; }
+
+/** Main Styles **/
+
+#container
+{
+	position: relative;
+	margin: 0 auto;
+	width: 860px;
+	padding: 20px;
+	z-index: 0;
+	background: #FFF;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+	#container #topcont
+	{
+		width: 820px;
+		padding: 30px 20px 20px 20px;
+	}
+	
+		#container #topcont h1
+		{
+			font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+			font-size: 70px;
+			text-transform: lowercase;
+			font-weight: normal;
+			letter-spacing: -2px;
+		}
+	
+	#container #menucont
+	{
+		width: 860px;
+		padding: 30px 0;
+	}
+	
+		#container #menucont ul li
+		{
+			display: inline;
+		}
+		
+		#container #menucont ul li a
+		{
+			padding: 20px;
+			font-size: 24px;
+			text-transform: uppercase;
+			color: #999;
+			font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+		}
+		
+			#container #menucont ul li.active a
+			{
+				color: #333;
+			}
+		
+		#container #menucont ul li a:hover
+		{
+			color: #7495A9;
+		}
+		
+	#container #gallerycont
+	{
+		margin: 0 auto;
+		width: 860px;
+		height: 200px;
+	}
+	
+	/*** Fading Gallery Styles **/
+	
+		#container #gallerycont #slideshow
+		{
+			position: relative;
+			width: 860px;
+			height: 200px;
+		}
+		
+		#container #gallerycont #slideshow img
+		{
+			position:absolute;
+			top:0;
+			left:0;
+			z-index:8;
+			opacity:0.0;
+		}
+		
+		#container #gallerycont #slideshow img.active
+		{
+			z-index:10;
+			opacity:1.0;
+		}
+		
+		#container #gallerycont #slideshow img.last-active
+		{
+			z-index:9;
+		}
+	
+	/** End Fading Gallery Styles **/
+
+	#container #maincont
+	{
+		margin: 0 auto;
+		width: 820px;
+		padding: 30px 20px;
+		line-height: 24px;
+		border-bottom: 1px dashed #BBB;
+	}
+
+		#container #maincont p { margin: 0 0 15px 0; }
+		#container #maincont h1, #container #maincont h2, #container #maincont h3, #container #maincont h4, #container #maincont h5 { margin: 0 0 20px 0; font-weight: normal; color: #333; letter-spacing: -1px; font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif; }
+		#container #maincont h1 { font-size: 35px; }
+		#container #maincont h2 { font-size: 30px; }
+		#container #maincont h3 { font-size: 30px; }
+		#container #maincont h4 { font-size: 28px; }
+		#container #maincont h5 { font-size: 28px; }
+		#container #maincont ul { margin: 0 0 15px 35px; list-style-type: square; }
+		#container #maincont ul li { padding: 0 0 0 2px; }
+		#container #maincont ol { margin: 0 0 15px 35px; list-style-type: decimal; }
+		#container #maincont ol li { padding: 0 0 0 2px; }
+		#container #maincont blockquote { background: #EEE; border-left: 3px solid #7495A9; padding: 15px; margin: 0 0 15px 0; font-size: 12px; font-style: italic; line-height: 18px; }
+
+	#container #footercont
+	{
+		width: 820px;
+		padding: 20px 20px 10px 20px;
+		font-size: 11px;
+		text-align: right;
+	}

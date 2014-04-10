@@ -1,0 +1,744 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(images/bg.jpg) center top no-repeat #000000;
+	line-height: 20px;
+}
+
+	
+#main {
+	width: 1050px;
+	margin: 0px auto;
+	background:url(images/main.jpg) right top no-repeat;}
+
+#header { 
+	width:1050px;
+	height: 270px;
+}
+
+#logo {	
+		padding: 107px 0px 0px 30px;
+		height: 120px;
+}
+
+#logo H2 {
+
+		font-family: Arial, Helvetica, sans-serif;
+		color:#000000;
+		font-size:18px;
+		font-style:italic;
+		}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 16px;
+	color: #000000;
+}
+	
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+}
+
+#buttons{
+	text-align:center;
+	height: 25px;
+	margin: 0px auto;
+	padding: 18px 0px 0px 36px;
+	background: url(images/buttons.gif) center top no-repeat;
+	width: 978px;
+}
+
+#buttons a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #006CAD;
+	text-align: center;
+	padding-top: 0px;
+	font-weight:100;
+}
+
+.but_razd { width: 78px;
+	height: 20px;
+	background:url(images/but_razd.gif) center 2px no-repeat;
+	float:left;}
+
+#buttons .but:hover {
+	text-decoration:underline;
+	}
+	
+.top { height: 291px;
+		background:url(images/top.jpg) left top no-repeat;
+		padding-top: 20px;
+		}
+
+.top_text {
+	width: 920px;
+	float:left;
+	background: ;
+	height:290px;
+	padding: 8px 0px 0px 0px;
+	margin: 0px 0px 0px 8px;
+	}
+	
+.top_left {
+	float:left; 
+	margin-top: 150px; 
+	margin: 146px 0px 0px 30px;
+}
+.top_right {
+	float:right; 
+	margin-top: 150px; 
+	margin: 146px 30px 0px 0px;
+}
+
+.top_img { 
+	float:left;
+	padding: 15px 25px 0px 1px;			
+	}
+.top h1 {
+	color:#ffffff;
+	font-size:18px;
+	padding: 15px 0px 13px 0px;
+	font-weight:100;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.top_fish {
+	width: 30px;
+	height:25px;
+	background:url(images/fish1.png) 14px 5px ; }
+	
+.span_top {
+	color:#ffffff;
+	font-weight:bold;
+}
+
+
+
+#content{
+	width: 994px;
+	margin: 0px auto;
+	background: #D7D6D6;
+	padding: 5px 10px 5px 10px;
+	line-height: 22px;
+}
+
+#content_razd {
+	width: 994px;
+	background: url(images/content_razd.gif) 663px repeat-y ;
+}
+
+#content_top {
+	width: 994px;
+	background: url(images/content_top.gif) 663px top no-repeat ;
+}
+
+#content_bot {
+	width: 974px;
+	padding: 0px 10px 0px 10px;
+	background: url(images/content_bot.gif) 663px bottom no-repeat ;
+} 
+
+.float_l {
+	float:left;}
+.col {
+	width: 318px;
+	float:left;}
+
+h1 {
+	padding: 0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color:#006CAD;}
+
+
+#left{
+	width: 622px;
+	float: left;
+	color:#000000;
+	margin-left: 0px;
+}
+
+.text{
+	padding: 0px 0px 15px 0px;
+}
+
+.img_l {	float:left;
+		margin: 6px 15px 5px 0px;
+}
+
+.img_r {	float: right;
+		margin: 9px 10px 3px 10px;
+}
+
+.span_cont {	color: #006CAD;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#content H2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #006CAD;
+	text-align: left;
+	padding: 5px 0px 0px 0px;
+}
+
+.read_r{
+	text-align: right;
+	padding: 5px 6px 3px 0px;
+	background: url(images/read.gif) right 5px no-repeat;
+	text-transform:uppercase;
+}
+
+.read_r a {
+	font-size:12px;
+	color: #ffffff;
+	text-decoration: none;
+	padding-right: 2px;
+	
+}
+
+.next {
+	width: 100%;
+	text-align: right;
+	padding: 0px 0px 0px 0px;}
+
+.next a{
+	color:#FFFFFF;
+	text-decoration: none; }
+
+.next a:hover {
+	text-decoration: underline; }
+
+.more {
+text-align:right;}	
+.more a {
+	color: #009FFF;
+	text-decoration:none;
+}
+
+
+
+#right{
+	float: right;
+	width: 264px;
+}
+
+.span_dat {
+	color: #002380;
+	text-decoration: underline;}
+	
+#bottom {
+	width: 1014px;
+	background: #424242;
+	margin: 0px auto;
+	color:#FFFFFF;
+	padding: 10px 0px 0px 0px;
+	
+}
+
+#b_col1 {
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+}
+#b_col2 {
+	width: 197px;
+	float: left;
+	margin-left: 49px;
+}
+#b_col3 {
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	text-align: left;
+}
+#b_col4 {
+	width: 204px;
+	float: left;
+	margin-left: 45px;
+	text-align: left;
+}
+
+#bottom ul {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+#bottom li {
+	padding: 8px 0px 0px 0px;
+	}
+#bottom ul a:hover {
+	text-decoration:underline;
+	}
+	
+#bottom ul a {
+	color:#ffffff;
+	text-decoration:none;
+	font-weight: 100;}
+	
+.fu_i {
+	padding: 0px 14px 0px 0px;
+	vertical-align: middle ;
+}
+
+#b_col2 ul {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+#b_col2 li {
+	padding: 4px 0px 0px 20px;
+	background: url(images/fish2.gif) 0px 11px no-repeat;}
+	
+#b_col2 a {
+	color:#FFFFFF;
+}
+	
+
+
+#footer{
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	padding: 8px 0px 0px 0px;
+	height: 48px;
+	text-align: center;
+	width: 1014px;
+	margin: 0px auto;
+	background: url(images/footer.gif) center bottom no-repeat #D7D6D6;
+	
+}
+
+#footer a{
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #000000;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+/* blog */
+
+#content_blog {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	line-height: 22px;
+}
+
+.left_box {
+	width: 677px;
+	padding: 0px 15px 0px 15px;
+	background: url(images/orange.jpg) top repeat-x #ffffff;
+}
+
+.dat_img {
+	float: left;
+	padding: 3px 14px 0px 0px;
+}
+
+.span_dat {
+	color: #7B3401;
+	text-decoration:underline;
+}
+
+.datc_comment {
+	height: 25px;
+	width: 100%;
+	background: url(images/datc_comment.gif) top repeat-x;
+	padding-top: 8px;
+	}
+
+.datc  {
+	float: left;
+	width: 132px;
+	color: #7B3401;}
+	
+.datc_comment a {
+	color: #626262;
+	font-weight: 100;
+	text-decoration:none;
+}
+
+.datc_comment a:hover {
+	text-decoration:underline;
+}
+
+.comment {
+	float: left;
+	width: 146px;}
+	
+.bloger {
+	float: left;
+	width: 182px;}
+
+.right_box {
+	padding: 0px 15px 13px 15px;
+	background: url(images/orange.jpg) top repeat-x #ffffff;
+	width: 253px;
+}
+
+.spis {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis  li {
+	padding: 0px 0px 0px 0px;
+	background:url(images/spis_li.gif) bottom repeat-x;
+	}
+.spis a:hover {
+	text-decoration:none;
+	}
+	
+.spis a {
+	color:#000000;
+	text-decoration:none;
+	font-weight: 100;
+	display:block;
+	width: 100%;
+	height: 25px;
+	padding-left:17px;
+	padding-top: 3px;
+	width: 247px;
+	background: url(images/fish_more.gif) left 10px no-repeat;}
+
+
+/* calendar */	
+#calendar {
+	margin: 10px 0px 20px 0px;
+	color:#006CAD;
+}
+
+#calendar a {
+	color:#006CAD;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar tbody td {
+	border: 1px solid #ffffff;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #ffffff;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #006CADl
+}	
+
+
+
+/* gallery */
+
+.row {
+	padding: 0px 0px 0px 5px;
+	height: 270px;
+	width: 999px;
+}
+
+.box_img2 {
+	width: 318px;
+	height: 255px;
+	background: url(images/box_img.gif) 0px bottom no-repeat #FFFFFF;
+	padding: 0px 0px 0px 0px;
+	float:left;
+}
+
+.box_razd {
+	width: 15px;
+	height: 50px;
+	float: left;
+}
+
+.g_text h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight: 500;
+	color: #006CAD;
+	text-align: left;
+	padding: 5px 0px 0px 0px;
+}
+
+.rol_over:hover {
+	background:url(images/rol_over_galery.png) left top no-repeat;
+}
+
+.g_size {
+	width: 318px;
+	height: 170px;
+	display: block;
+}
+
+.g_text {
+	padding: 0px 10px 0px 10px
+}
+
+.g1 {
+background:url(images/img31.jpg) left top no-repeat;} 
+.g2 {
+background:url(images/img32.jpg) left top no-repeat;}
+.g3 {
+background:url(images/img33.jpg) left top no-repeat;}
+.g4 {
+background:url(images/img34.jpg) left top no-repeat;}
+.g5 {
+background:url(images/img35.jpg) left top no-repeat;}
+.g6 {
+background:url(images/img36.jpg) left top no-repeat;}
+.g7 {
+background:url(images/img37.jpg) left top no-repeat;}
+.g8 {
+background:url(images/img38.jpg) left top no-repeat;}
+.g9 {
+background:url(images/img39.jpg) left top no-repeat;}
+
+.gal_num {
+	width: 17px;
+	height: 23px;
+	padding: 3px 0px 0px 9px;
+	float: left;
+	margin-left: 5px;
+	background:url(images/gal_num.gif) left top no-repeat;
+	color:#FFFFFF;
+	font-size:14px;
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/* about us */
+
+.text_ind3 {
+	padding: 5px 0px 17px 0px;
+}
+
+.about_razd {
+height: 28px;
+background: url(images/about_razd.gif) left 16px repeat-x;
+width: 100%;
+}
+
+.about_razd_d {
+height: 18px;
+background: url(images/about_razd.gif) left 6px repeat-x;
+width: 100%;
+}
+
+.right_box_about {
+	padding: 0px 0px 0px 0px;
+	background: url(images/orange.jpg) top repeat-x #ffffff;
+	width: 283px;
+}
+
+.text_about {
+	padding: 5px 15px 13px 15px;
+}
+
+.dat_about {
+	color:#FFFFFF;
+	font-size:12px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* contact us */
+
+#left_cont {
+	width: 682px;
+	float:left;
+	padding: 15px 0px 0px 0px;
+	
+}
+
+#right_cont {
+	width: 254px;
+	float: right;
+	padding: 15px 0px 0px 0px;
+	
+}
+
+.input_txt2 {	
+	width: 606px;
+	border: none;
+	background: url(images/input_cont.gif) left top no-repeat;
+	padding: 8px 8px 8px 8px;
+	color:#C9C8C8;
+
+}
+
+.text_area2 {
+	width: 606px;
+	height:196px;
+	font-size: 14px;
+	border: none;
+	background: url(images/message_cont.jpg) 0px 0px no-repeat;
+	padding: 8px 8px 8px 8px;
+	color:#C9C8C8;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.submit2 {
+	background: url(images/but_submi_cont.gif) right 2px no-repeat;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:12px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 6px 2px 6px 2px;
+	width: 88px;
+	margin: 0px 0px 0px 0px;
+	text-transform: uppercase;
+	line-height: 13px;
+}
+
+
+.box_us {
+width: 264px;}
+
+.box_us_l {
+width: 30px;
+float: left;
+padding-top:4px;}
+
+.box_us_r {
+width: 234px;
+float: left;}
+
+
+
+.prev_but_center{
+    width: 990px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.prev_but_center_left{
+    float: left;
+    width: 540px;
+}
+
+.prev_but_center_right{
+    float: left;
+    width: 370px;
+    padding-left: 30px;
+}
+
+.prev_but_center_right p{
+    color: #232323;
+}
+
+.prev_but_center_right a{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/*
+Header Scroller
+*/
+
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	.panel h2.title { margin-bottom: 10px }
+	noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding: 15px }
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 0px; padding-left: 20px }
+	.coda-slider { background: none}
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 308px; overflow: hidden !important; padding-right: 20px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 930px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 975px }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0px }
+	
+	/* Arrow styling */
+	.coda-nav-left {padding-top: 120px;}
+	.coda-nav-right {padding-top: 120px;}
+	.coda-nav-left a { background: url(images/top_left.png) no-repeat; color: #fff; width: 18px; height: 108px; text-indent: -9000em;}
+	.coda-nav-right a { background: url(images/top_right.png) no-repeat; color: #fff; width: 18px; height: 108px; text-indent: -9000em;}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 0px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: none }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; overflow: hidden }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
